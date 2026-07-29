@@ -1,10 +1,10 @@
-# HeatFlow
+# ClimateSync
 
-HeatFlow is a frontend web application developed to demonstrate the use of climate intelligence for heatwave monitoring, prediction, and early warning. The project presents a modern, responsive interface that highlights the importance of proactive heatwave preparedness through visual dashboards, prediction insights, and safety recommendations.
+ClimateSync is a frontend web application developed to demonstrate the use of climate intelligence for heatwave monitoring, prediction, and early warning. The project presents a modern, responsive interface that highlights the importance of proactive heatwave preparedness through visual dashboards, prediction insights, and safety recommendations.
 
 ## Overview
 
-Heatwaves are becoming more frequent and severe due to changing climate conditions. HeatFlow aims to spread awareness by showcasing how weather data and climate intelligence can be used to monitor heatwave conditions, assess potential risks, and provide early warning information.
+Heatwaves are becoming more frequent and severe due to changing climate conditions. ClimateSync aims to spread awareness by showcasing how weather data and climate intelligence can be used to monitor heatwave conditions, assess potential risks, and provide early warning information.
 
 > **Note:** This project is a frontend demonstration and uses static data for visualization purposes.
 
@@ -52,13 +52,13 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Saksham-Varshney07/HeatFlow.git
+git clone https://github.com/Saksham-Varshney07/ClimateSync.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd HeatFlow
+cd ClimateSync
 ```
 
 Install dependencies:
