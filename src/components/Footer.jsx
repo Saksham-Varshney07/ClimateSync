@@ -20,22 +20,80 @@ const Footer = () => {
           <div>
             <h4>Quick Links</h4>
             <div className="footer-links">
-              <Link to="/">Home</Link>
-              <Link to="/prediction">Prediction</Link>
-              <Link to="/safety">Safety</Link>
-              <Link to="/dashboard">Dashboard</Link>
-              <Link to="/about">About</Link>
+              <Link
+                to="/"
+                title="Go to the Climate Intelligence home page"
+              >
+                Home
+              </Link>
+
+              <Link
+                to="/prediction"
+                title="View heatwave predictions"
+              >
+                Prediction
+              </Link>
+
+              <Link
+                to="/safety"
+                title="View heatwave safety information"
+              >
+                Safety
+              </Link>
+
+              <Link
+                to="/dashboard"
+                title="View the heatwave monitoring dashboard"
+              >
+                Dashboard
+              </Link>
+
+              <Link
+                to="/about"
+                title="Learn about Climate Intelligence"
+              >
+                About
+              </Link>
             </div>
           </div>
 
           <div>
             <h4>Resources</h4>
             <div className="footer-links">
-              <a href="#">Climate Data</a>
-              <a href="#">Research Papers</a>
-              <a href="#">API Access</a>
-              <a href="#">Documentation</a>
-              <a href="#">Blog</a>
+              <a
+                href="#"
+                title="View climate data resources"
+              >
+                Climate Data
+              </a>
+
+              <a
+                href="#"
+                title="View climate research papers"
+              >
+                Research Papers
+              </a>
+
+              <a
+                href="#"
+                title="Learn about API access"
+              >
+                API Access
+              </a>
+
+              <a
+                href="#"
+                title="View Climate Intelligence documentation"
+              >
+                Documentation
+              </a>
+
+              <a
+                href="#"
+                title="Read the Climate Intelligence blog"
+              >
+                Blog
+              </a>
             </div>
           </div>
 
@@ -46,17 +104,48 @@ const Footer = () => {
               <p><FiPhone /> +1 (555) 123-4567</p>
               <p><FiMapPin /> San Francisco, CA</p>
             </div>
+
             <div className="footer-social">
-              <a href="#" aria-label="Twitter"><FaTwitter /></a>
-              <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
-              <a href="#" aria-label="GitHub"><FaGithub /></a>
-              <a href="#" aria-label="YouTube"><FaYoutube /></a>
+              <a
+                href="#"
+                aria-label="Twitter"
+                title="Visit Climate Intelligence on Twitter"
+              >
+                <FaTwitter />
+              </a>
+
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                title="Visit Climate Intelligence on LinkedIn"
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
+                href="#"
+                aria-label="GitHub"
+                title="Visit Climate Intelligence on GitHub"
+              >
+                <FaGithub />
+              </a>
+
+              <a
+                href="#"
+                aria-label="YouTube"
+                title="Visit Climate Intelligence on YouTube"
+              >
+                <FaYoutube />
+              </a>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Climate Intelligence. All rights reserved. | Frontend Demonstration Project</p>
+          <p>
+            &copy; {new Date().getFullYear()} Climate Intelligence.
+            All rights reserved. | Frontend Demonstration Project
+          </p>
         </div>
       </div>
     </footer>
@@ -64,4 +153,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
